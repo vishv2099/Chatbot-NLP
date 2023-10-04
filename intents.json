@@ -1,0 +1,116 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Yooo","Yo","Helloo","What up"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","Adios"],
+         "responses": ["See you!", "Have a nice day", "Bye! See you again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","Thankss"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure if I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?","Options?","Help?","What can you do?","Help me?"],
+         "responses": ["I can help you by consoling and providing you with a proper help. I can guide you to a professional therapist and give you suggestions to help you for time being."],
+         "context": [""]
+        },
+        {"tag": "mental_fatigue",
+         "patterns": ["I feel sad","I have sleeping disorder","I am confused"," I have a short attention span","Difficulty in focusing on things","I am mentally tired","I am mentally down"],
+         "responses": ["Heyyyy..... so you might be exhausted a bit from your current schedule or sudden influx of work you should prolly consider taking a break , go out with your friends have some time to yourself and balance your mental health and work. If you want to have a calming session you can listen to this playlist and feel relaxed - https://open.spotify.com/playlist/37i9dQZF1DX2TRYkJECvfC?si=752b6f04fd8f4af5 ."],
+         "context": [""]
+        },
+        {"tag": "depression",
+          "patterns": ["I have depression","depression","depress","I am depressed","I feel very sad","I am sad","I feel hopeless","hopeless","I feel tired", "I feel worthless", "I feel tired and restless at the same time","I get thoughts about death", "I have a short attention span","No one loves me","No one cares for me","Life seems difficult","Nothing seems to work out","Nothing is working out","Nothing good happens to me"],
+          "responses": ["Heyyyy..... everything is going to be fine, even though things don't seem to be right at the moment they are gonna be alright , let time work it's ways out. You can always talk to your family, friends or closed ones. If not anyone you can consult a therapist and visit for an appointment in person or virtually on - https://www.cult.fit/mind/therapy .Just so as you feel better for now I'll suggest you a game which helps battling clinical depression and various other problems - https://store.steampowered.com/app/825240/Elude/ it's called Elude. You can also listen to this playlist - https://open.spotify.com/playlist/37i9dQZF1DWU13kKnk03AP?si=a9156f30869843e7 . Everything is gonna be great don't you worry........See you soon Bye! :) "],
+          "context": [""]
+         },
+         {"tag": "suicide",
+          "patterns":["I want to die","I want to commit suicide", "I feel suicidal", "I want to end everything", "suicide", "world is against me"],
+          "responses": ["Heyyyy.... suicide is never the answer for anything. No matter what, dont think about that! It will get better, it always does... Think of all your loved ones. You can also seek professional help just ny calling this number- 9152987821... You can also get help here- http://www.aasra.info/helpline.html..... Your life matters!!"],
+          "context":[""]
+         },
+         {"tag": "anxiety",
+          "patterns": ["I feel very restless","I feel very tensed","I feel tired and dull", "I have difficulty breathing","I have chest pain", "I am worried about everything","I am distressed about my future","I am overthinking","i have anxiety"],
+          "responses": ["Heyyyy..... you can take a break from thinking too much or letting your thoughts run very beserk and stressing you out, even though rational thinking is fine overthinking isn't. You should calm down a bit sometimes and give your thought processes some rest. If you are not able to control it you can always talk to your family, friends or closed ones. You can consult a therapist and visit for an appointment in person or virtually on - https://www.cult.fit/mind/therapy .Just so as you feel better for now I'll suggest you a game which helps battling anxiety and various other problems - https://store.steampowered.com/app/825240/Elude/ it's called Elude. You can also listen to this playlist - https://open.spotify.com/playlist/37i9dQZF1DWU13kKnk03AP?si=a9156f30869843e7 . Everything is gonna be great don't you worry........ See you soon Bye! :) "],
+          "context": [""]
+         },
+         {"tag": "ptsd",
+          "patterns": ["I feel very scared","I feel like a victim","I feel traumatized", "I feel like a survivor", "I don't feel like going out","Nothing seems to feel like before","trauma", "I have PTSD"],
+          "responses": ["Heyyyy..... I know you have gone through a traumatizing event in the past but you have battled through it, look at you a strong, bold survivor. It's okay to feel discomfort or trauma around things that bring out the bad memories.....we can and will work on it, but if you are very scared  you can always talk to your family, friends or closed ones. If not anyone you can consult a therapist and visit for an appointment in person or virtually at - https://www.cult.fit/mind/therapy .Just so as you feel bettter you can also listen to this playlist - https://open.spotify.com/playlist/37i9dQZF1DX3TRdW1ekdvM?si=eb0d52914a9440a6 . Everything is gonna be great don't you worry........See you soon Bye! :) "],
+          "context": [""]
+         },
+         {"tag": "sleeping_disorder",
+          "patterns": ["I feel very tired","I can't sleep","I stay awake", "I am having hallucinations","I don't feel my brain functioning at higher capacity", "I can't rest","sleeplessness","body ache","I have insomania","insomania"],
+          "responses": ["Heyyyy..... sleeping is an integral part of our routine and for whatever reason you are not able to sleep, we can counter this issue. Sleep deprevation can have serious health issues so I suggest you visit a doctor as soon as possible or you can consult a doctor's appointment virtually - https://nithra.com/ .You can also listen to this playlist - https://open.spotify.com/playlist/37i9dQZF1DX3TRdW1ekdvM?si=9a0ab92e575442cb ."],
+          "context": [""]
+         },
+         {"tag": "ocd",
+          "patterns": ["I keep cleaning things","I do a lot of uneccessary arranging","I can't control my cleaning habbits", "I am very compulsive","I am very controlling", "I keep washing my hands ","I tire myself out cleaning things","People find me bossy", "I have no control over my obssesions","I feel people are distancing from me","I can't let things be the way they are","I can't control my emotions"],
+          "responses": ["Heyyyy..... cleaning and maintaining hygine is an important part of one's life, but just like anything else, one thing in too much amount can cause trouble. Being overly compulsive about stuff can drive people away from you which isn't a good thing. You can consult a therapist and visit for an appointment in person or virtually at - https://www.cult.fit/mind/therapy .You can also listen to this playlist - https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=e7822ab263354c6f . Everything is gonna be great don't you worry........ See you soon Bye! :) "],
+          "context": [""]
+         },
+         {"tag": "ocd-1",
+          "patterns": ["So do you think I have OCD?","You think I prolly might have OCD?","Am I an OCD person then","What do you think I might have?"],
+          "responses": ["Yes so you probably might have OCD.....as I said above you can follow the link and get a sureity on that topic by consulting to a professional."],
+          "context": [""]
+         },
+         {"tag": "ocd-2",
+          "patterns": ["Is it bad to have OCD?","Will having OCD affect my normal day to day things?"],
+          "responses": ["There is no need to be distressed......calm down it's very normal to have it and it is curable so don't you worry even a bit."],
+          "context": [""]
+         },
+         {"tag": "paranoia",
+          "patterns": ["I feel paranoid","I am paranoid", "I feel paranoia", "I feel threatened", "I feel scared all the time", "I am afraid all the time", "I fear irrationally", "I am hypervigilant"],
+          "responses": ["Heyyyy..... everything is going to be alright. You dont have to be scared all the time and you deserve to live freely! Talk to your trusted friends and family about this! You can also consult a therapist and visit an appointment in person or virtually - https://www.cult.fit/mind/therapy .Just so as you feel better for now I'll suggest you a game which will help with paranoia and various other problems - https://store.steampowered.com/app/825240/Elude/ it's called Elude. You can also listen to this playlist - https://open.spotify.com/playlist/1plkuI5r1TEZYWlzBjhAq5?si=56a5948356d54148 . Everything is gonna be great........ Bye! :) "],
+          "context": [""]
+         },
+         {"tag": "eating_disorder",
+          "patterns": ["I feel hungry all the time","I feel very hungry","I am very hungry", "I feel guilty about eating","I feel like eating to solve all my problems","I have eating disorder"],
+          "responses": ["Heyyyy..... Eating is very important for your life but it should in a limit. You need to control your cravings but eating your heart out once in a while is fun. Stay Healty!! You can always talk to your family, friends or closed ones. If not anyone you can consult a therapist and visit an appointment in person or virtually - https://www.cult.fit/mind/therapy . You can also go the gym and maintain better physical health for your body. You can listen to this playlist for gym- https://open.spotify.com/playlist/7I3SfCbNCIG3DVwNmmke3i?si=PEF3IO1-SvypbmCMl4nifA&utm_source=whatsapp . Everything is gonna be great........ Bye! :) "],
+          "context": [""]
+         },
+
+         {"tag": "what_causes",         
+	        "patterns": ["What causes mental illness?","What leads to mental illness?","how does one get mentally ill?"],         
+	        "responses": ["Symptoms of mental health disorders vary depending on the type and severity of the condition."],       
+	        "context": [""]        
+	      },
+	
+        {"tag": "recover",        
+	        "patterns": ["Can people with mental illness recover?","Is it possible to recover from mental illness"],        
+	        "responses": ["When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."],       
+	        "context": [""]
+        },
+         
+         {"tag": "gen-dis",
+          "patterns": ["I don't understand how can I have this mental illness?","I don't understand?","How is this possible?","What do you mean?","how can I have this mental illness"],
+          "responses": ["Hey hey hey..... please take a deep breath and feel calm. It's very okay to have such ailments, it's about how you treat them and how you want to handle them that helps you out. Don't worry much, with therapy sessions and good company everything gets sorted. If you might as well follow this link to get yourself booked for counselling/therapy - https://www.cult.fit/mind/therapy "],
+          "context": [""]
+         },
+         {"tag": "gen-dis2",
+          "patterns": ["Will I ever get out of this?"],
+          "responses": ["Yesss you will you don't know the strength that you yourself hold. Everything will change n be great just have faith. You can ask for affirmations from me to feel positive and empowered if you wish to."],
+          "context": [""]
+         },
+        {"tag": "affirmations",
+         "patterns": ["I want affirmations","I need positivity","positive thoughts","positivity","affirm","empower","coming out of depression","empowerment","peace for mind"],
+         "responses": ["These are certain affirmations that will surely help you out to empower yourself throughout the day keep reading them repeatedly:    I am successful. I am confident. I am powerful. I am strong. I am getting better and better every day. All I need is within me right now. I wake up motivated. I am an unstoppable force of nature. I am a living, breathing example of motivation. I am living with abundance. I am having a positive and inspiring impact on the people I come into contact with. I am inspiring people through my work. I am rising above the thoughts that are trying to make me angry or afraid."],
+         "context": [""]
+        },
+        {"tag": "awareness",
+         "patterns": ["I want information on mental heath","I want awareness on depression","information about mental illnesses","how can i understand mental ailments"],
+         "responses": ["Hi, Knowing about depression and mental ailments is a very important thing especially to diagnose if you or any of your loved one is facing some issue or is mentally not doing so well. Kindly visit this website for info on mental health - https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968"],
+         "context": [""]
+        }
+   ]
+}
